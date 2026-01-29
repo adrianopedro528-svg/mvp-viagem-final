@@ -34,4 +34,5 @@ def get_exchange_rate(moeda="USD") -> float:
         return float(dados[0]['valor'])
     except Exception as e:
         print(f"Erro ao buscar Câmbio: {e}")
+
         return None
